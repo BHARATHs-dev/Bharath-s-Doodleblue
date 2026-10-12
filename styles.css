@@ -1,0 +1,43 @@
+body{
+    background-color: none; 
+    font-size: 20px;
+    font-family: times new roman, sans-serif;
+}
+a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+.header {
+    position: relative;
+    text-align: center;
+    padding: 35px 20px;
+    min-height: 150px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.header h3 {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.profile-picture {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 120px;
+    height: 145px;
+    object-fit: contain;
+    border-radius: 15px;
+}
